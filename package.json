@@ -1,0 +1,20 @@
+{
+  "name": "graph_ql_server",
+  "version": "1.0.0",
+  "description": "Graph_QL_Practice",
+  "main": "library-backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon library-backend.js"
+  },
+  "author": "Amrit Regmi",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "graphql": "^15.3.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
